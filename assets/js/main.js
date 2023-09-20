@@ -26,13 +26,13 @@ Author: GrayGrids
         var logo = document.querySelector('.navbar-brand img')
         if (window.pageYOffset > sticky) {
           header_navbar.classList.add("sticky");
-          logo.src = 'assets/images/logo/logo.svg';
+          logo.src = 'https://dompetin.id/wp-content/uploads/2023/04/Transparan-768x271.png';
         } else {
           header_navbar.classList.remove("sticky");
-          logo.src = 'assets/images/logo/white-logo.svg';
+          logo.src = 'https://dompetin.id/wp-content/uploads/2023/04/Transparan-768x271.png';
         }
 
-        // show or hide the back-top-top button
+        
         var backToTo = document.querySelector(".scroll-top");
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             backToTo.style.display = "flex";
